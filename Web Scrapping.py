@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
-url="https://github.com/SanjaySivakumar2005"
+url="https://github.com/Shri-harshini"
 page=requests.get(url)
 soup=BeautifulSoup(page.text,'html.parser')
 print(soup)
